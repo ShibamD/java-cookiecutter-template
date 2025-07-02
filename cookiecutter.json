@@ -1,6 +1,7 @@
 {
-  "project_slug": "my-java-service",
-  "package_name": "com.example.app",
-  "author_name": "Shibam",
-  "java_version": "17"
+  "service_name": "my-java-service",
+  "java_package_name": "com.mycompany",
+  "artifact_id": "{{ cookiecutter.service_name.lower().replace(' ', '-') }}",
+  "description": "A short description of the service",
+  "owner": "platform-team"
 }
